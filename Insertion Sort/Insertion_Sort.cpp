@@ -32,6 +32,7 @@ int main()
     int arr[] = {18, 25, 3, 4, 9, 5, 8};
     int n = sizeof(arr) / sizeof(arr[0]);
 
+    cout << "The Sorted array: ";
     insertionSort(arr, n);
     printArray(arr, n);
 
